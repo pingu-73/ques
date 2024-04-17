@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Question 1:
 At IIIT we use LDAP to manage user information — usernames, credentials, along with other metadata. Given that our LDAP url is [ldap.iiit.ac.in](http://ldap.iiit.ac.in/):
 
