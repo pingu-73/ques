@@ -38,7 +38,7 @@ At IIIT we use LDAP to manage user information — usernames, credentials, along
 - But step would be to create a `LDIF` file containg `dn for pointing to my cn, changetype, add to specify name of attribute to be added, content.`
 
 <!-- ![ans-part2.png](./assets/q1/part_2.png) -->
-<img src="./assets/q1/part_2.png" alt="ans-part2.png" class = "center">
+<img src="./assets/q1/part_2.png" alt="ans-part2.png" class = "center" width="50%" height="50%">
 
 - As specified earlier I don't have write access to the ldap server.
 
@@ -51,6 +51,7 @@ Hence the command is used to just print common name and distinguished name for u
 
 # Question 2:
 You are an admin on a server with multiple users. You find an unknown process running. You don’t want to kill it yet. How do you determine what exactly the process is doing and whether it is malicious?
+
 ## Answer:
 
 # Question3:
@@ -59,10 +60,12 @@ Suppose as a sysadmin, you need to figure out how to prevent students from conne
 2.  how does your answer change if you need to instead block http://facebook.com?
 3.  (extra credit) how does your answer change if you need to instead block https://facebook.com?
 4.  (extra credit) how does your answer change if you want to prevent clever students from trying to access ssh over non-standard ways?
-## Answer
+
+## Answer:
 
 # Question4:
 Suppose you want to run a website on your computer in the LAN. You want your friends to be able to access it with a URL like rishav.iiit.ac.in, but you do not want to get any official approval.
 1.  Describe how you would go about it. What instructions you would give to your friends so they can access your website (bonus: will your solution work for any generic xyz.iiit.ac.in?)
 2.  (extra credit) Suppose you wish to allow people anywhere on the internet to access your websites. What are the steps you think that us, as sysadmins, would have to follow?
+
 ## Answer:
