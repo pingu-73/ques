@@ -21,7 +21,7 @@ Suppose you want to run a website on your computer in the LAN. You want your fri
 - To access it as `dikshant.iiit.ac.in` on my computer i can map it to my static-ip addrs like the following.
 
 <img src="./assets/q4/changes.png" alt="mapping" class="center" width="50%" height="50%">
-
+</br>
 <img src="./assets/q4/custom_domain.png" alt="mapping" class="center" width="50%" height="50%">
 
 - But to make it publically accessable as `dikshant.iiit.ac.in` i need to map it to my ip address on DNS server. 
