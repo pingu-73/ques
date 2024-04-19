@@ -36,3 +36,9 @@ Suppose you want to run a website on your computer in the LAN. You want your fri
 
 
 ### Part2:
+- To allow people to access website from anywhere. We need to obtain a public IP that's accessible from internet or set up DDNS.
+- Configure port forwarding on the router to forward incoming requests on port 80 for http and 443 for https to the internal ip addrs of our server.
+- Configure DNS records for our domain. It involves creating A record for ipv4 and AAAA record for ipv6 that maps to our domain name.
+- Installing and configuring web server using Apache So that it could serve website files to client accessing the website.
+- If we are handeling some info then we could also go for https using ssl certificate and configure our server to use certificate for secure connections.
+- Ensuring that server's firewall is configured to allow incoming connections on port80,443.
