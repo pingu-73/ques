@@ -34,13 +34,13 @@ At IIIT we use LDAP to manage user information — usernames, credentials, along
 <img src="./assets/q1/ans_part1.png" alt="ans-part1.png" class = "center" width="400" height="300">
 
 ### Part2:
-- To append description field for `uid=dikshant.gurudutt` we can use `ldapmodify` command Altough appending description field should not be possible because in ldap enviroment client only has read access and not write/append access.
-- But step would be to create a `LDIF` file containg `dn for pointing to my cn, changetype, add to specify name of attribute to be added, content.`
+- To append description field for `uid=dikshant.gurudutt` we can use `ldapmodify`. So for that first we need to make a `ldif` file that contains my `dn`, `description field & content`.
 
 <!-- ![ans-part2.png](./assets/q1/part_2.png) -->
-<img src="./assets/q1/part_2.png" alt="ans-part2.png" class = "center" width="50%" height="50%">
+<img src="./assets/q1/updated_desc.png" alt="ans-part2.png" class = "center" width="50%" height="50%">
+</br>
+<img src="./assets/q1/ans_2.png" alt="ans_2.png" class = "center" width="50%" height="50%">
 
-- As specified earlier I don't have write access to the ldap server.
 
 ### Part3:
 Now from above steps we can say that to find out all the people in ug2k22. I need to change the filter and set correct base dn. So i’ve to set dn = `ou=ug2k22,ou=ug,ou=Students,ou=Users,dc=iiit,dc=ac,dc=in` and filter = `filter set = (objectClass=inetOrgPerson)` because `inetOrgPerson` represents user entries in ldap dirs.
